@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an sample SDK backend for [Xfers Android SDK](https://github.com/Xfers/xfers-sdk/tree/master/Android).
 
-Things you may want to cover:
+Currently this example is hosted on https://protected-earth-80778.herokuapp.com/ .
 
-* Ruby version
+Please look for `app/controllers/register_xfers_user_controller.rb` for most of the code used in this application.
 
-* System dependencies
+To test this, you can use the Android SDK or test independently via postman collection:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://documenter.getpostman.com/view/5775523/RzfdqWe2
