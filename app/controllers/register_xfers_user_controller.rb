@@ -14,7 +14,7 @@ class RegisterXfersUserController < ApplicationController
   end
 
   def retrieve_otp
-    phone_number = params["phoneNumber"] || params["phoneNumber"]
+    phone_number = params["phoneNumber"] || "+6287785725657"
     response = call_xfers_get_token_api(phone_number, params["OTP"])
 
     user_api_token = JSON.parse(response.body)["user_api_token"]
