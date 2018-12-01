@@ -52,7 +52,7 @@ class RegisterXfersUserController < ApplicationController
 
     url = URI("https://sandbox-id.xfers.com/api/v3/authorize/get_token?otp=#{otp}&phone_no=#{encoded_phone_number}&signature=#{signature}")
 
-    http = Net::HTTP.new(url.hogst, url.port)
+    http = Net::HTTP.new(url.host, url.port)
     http.use_ssl = true
 
     request = Net::HTTP::Get.new(url)
