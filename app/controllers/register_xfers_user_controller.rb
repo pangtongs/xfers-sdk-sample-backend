@@ -14,11 +14,7 @@ class RegisterXfersUserController < ApplicationController
   end
 
   def retrieve_otp
-    # FIXME: phone number must be supplied by the SDK
-    phone_number = "+6287785725657"
-    otp = params["OTP"]
-
-    response = call_xfers_get_token_api(phone_number, otp)
+    response = call_xfers_get_token_api(params["phoneNumber"], params["OTP"])
 
     user_api_token = JSON.parse(response.body)["user_api_token"]
 
@@ -41,7 +37,7 @@ class RegisterXfersUserController < ApplicationController
     request = Net::HTTP::Post.new(url)
     request["X-XFERS-APP-API-KEY"] = APP_API_KEY
     request["Content-Type"] = 'application/json'
-    request.body = "{\n\t\"phone_no\": \"+6287785725657\",\n\t\"signature\": \"#{signature}\"\n}"
+    request.body = "{\n\t\"phone_no\": \"#{phone_number}\",\n\t\"signature\": \"#{signature}\"\n}"
 
     response = http.request(request)
   end
