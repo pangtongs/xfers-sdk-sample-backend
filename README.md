@@ -2,7 +2,9 @@
 
 This is an sample SDK backend for [Xfers Android SDK](https://github.com/Xfers/xfers-sdk/tree/master/Android).
 
-Currently this example is hosted on https://protected-earth-80778.herokuapp.com/ .
+Currently this example is hosted on https://protected-earth-80778.herokuapp.com/.
+
+For the usage of registration flow of the Xfers SDK, please change your merchantApiBase into `https://protected-earth-80778.herokuapp.com/register_xfers_user/`
 
 Please look for `app/controllers/register_xfers_user_controller.rb` for most of the code used in this application.
 
