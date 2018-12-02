@@ -19,7 +19,7 @@ class RegisterXfersUserController < ApplicationController
     user_api_token = JSON.parse(response.body)["user_api_token"]
 
     # You should save this token in your database
-    Rails.logger.info "#{phone_number} #{user_api_token}"
+    Rails.logger.info "#{params["phoneNumber"]} #{user_api_token}"
 
     render :json => {
       "apiKey" => user_api_token

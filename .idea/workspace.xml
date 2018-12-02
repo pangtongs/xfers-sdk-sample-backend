@@ -52,8 +52,8 @@
       <file leaf-file-name="register_xfers_user_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/register_xfers_user_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="315">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -375,12 +375,12 @@
       <option name="presentableId" value="Default" />
       <updated>1543660388622</updated>
       <workItem from="1543660395070" duration="4322000" />
-      <workItem from="1543666327922" duration="6969000" />
+      <workItem from="1543666327922" duration="7758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11291000" />
+    <option name="totallyTimeSpent" value="12080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1448" y="-979" width="1440" height="1333" extended-state="0" />
@@ -520,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/register_xfers_user_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="315">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
         </state>
       </provider>
     </entry>
